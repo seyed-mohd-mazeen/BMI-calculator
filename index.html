@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI calculator</title>
+        <link href="./style/index.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d3db405f5e.js" crossorigin="anonymous"></script>
+        <script src="./script/script.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <h1 class="title">BMI Calculator</h1>
+            <div class="results">
+                <div id="percent" class="percentage"></div>
+                <div class="image" id="image"></div>
+                <div class="phrase" id="phrase">
+                    <div>Let's see what you get!</div>
+                </div>
+            </div>
+            <div class="measurements">
+                <div class="row">
+                    <div class="cell-1">
+                        <label>Weight :</label>
+                        <input type="text" id="weight" class="text-field" placeholder="In kg">
+                        <i onclick="clearWeight()" class="fa-solid fa-eraser"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell-1">
+                        <label>Height :</label>
+                        <input type="text" id="height" class="text-field" placeholder="In cm">
+                        <i onclick="clearHeight()" class="fa-solid fa-eraser"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-container">
+                <div class="row">
+                    <div class="cell-1">
+                        <button class="primary-btn" onclick="BmiCalculator()">Calculate BMI</button>
+                    </div>
+                    <div class="cell-1">
+                        <button onclick="resetBtn()" class="secondary-btn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

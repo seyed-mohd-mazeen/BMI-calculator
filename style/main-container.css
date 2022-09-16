@@ -1,0 +1,37 @@
+.main-container {
+    width: 425px;
+    margin: auto;
+}
+.title {
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 70px;
+}
+.measurements {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.results {
+    text-align: center;
+    background-color: #fff;
+    max-height: 200px;
+    padding: 40px 40px 50px 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 91px 300px 0px #f70870;
+}
+.image {
+    margin: 20px;
+    margin-bottom: 0;
+}
+.phrase {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.percentage {
+    font-size: 28px;
+    font-weight: bold;
+}
